@@ -1,9 +1,14 @@
 import logging
 import pandas as pd
 import os
+from dotenv import load_dotenv
 
-# Logging Setup
-logging.basicConfig(level=logging.INFO)
+# Load environment variables
+load_dotenv()
+
+# Configure logging
+LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
+logging.basicConfig(level=getattr(logging, LOG_LEVEL.upper()))
 logger = logging.getLogger(__name__)
 
 class Calculator:
@@ -48,7 +53,7 @@ class Calculator:
 
 def main():
     calculator = Calculator()
-    print("Welcome to Advanced Python Calculator")
+    print("Welcome to the Advanced Python Calculator")
     while True:
         command = input("Enter command (add, sub, mul, div, history, exit): ").strip().lower()
         if command == "exit":
