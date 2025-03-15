@@ -1,0 +1,214 @@
+2025-03-14 17:02:37,572 - INFO - Application started!
+2025-03-14 17:04:44,379 - INFO - Application started!
+2025-03-14 17:18:43,358 - INFO - Application started!
+2025-03-14 21:07:55,465 - INFO - Application started!
+2025-03-14 21:07:56,594 - INFO - History loaded successfully.
+2025-03-14 21:07:56,594 - INFO - History loaded successfully.
+2025-03-14 21:10:36,112 - INFO - Application started!
+2025-03-14 21:10:36,407 - INFO - History loaded successfully.
+2025-03-14 21:10:36,408 - INFO - History loaded successfully.
+2025-03-14 21:10:56,826 - INFO - History saved to data/history.csv
+2025-03-14 21:10:56,827 - INFO - New entry added: + 3.0 3.0 = 6.0
+2025-03-14 21:12:22,654 - INFO - Application started!
+2025-03-14 21:12:22,933 - INFO - History loaded successfully.
+2025-03-14 21:12:22,934 - INFO - History loaded successfully.
+2025-03-14 21:12:28,993 - INFO - History saved to data/history.csv
+2025-03-14 21:12:28,993 - INFO - New entry added: + 2.0 2.0 = 4.0
+2025-03-14 21:12:50,941 - INFO - History saved to data/history.csv
+2025-03-14 21:12:50,941 - INFO - History cleared successfully.
+2025-03-14 21:13:00,430 - INFO - No calculation history available.
+2025-03-14 21:15:03,216 - INFO - Application started!
+2025-03-14 21:15:03,654 - INFO - History loaded successfully.
+2025-03-14 21:15:03,655 - INFO - History loaded successfully.
+2025-03-14 21:15:12,548 - INFO - History saved to data/history.csv
+2025-03-14 21:15:12,548 - INFO - History cleared successfully.
+2025-03-14 21:15:17,022 - INFO - History saved to data/history.csv
+2025-03-14 21:15:17,022 - INFO - New entry added: + 3.0 2.0 = 5.0
+2025-03-14 21:15:33,452 - INFO - History saved to data/history.csv
+2025-03-14 21:15:33,452 - INFO - New entry added: / 4.0 3.0 = 1.3333333333333333
+2025-03-14 21:15:38,799 - INFO - History saved to data/history.csv
+2025-03-14 21:15:38,799 - INFO - New entry added: * 0.0 8.0 = 0.0
+2025-03-14 21:18:39,113 - INFO - Application started!
+2025-03-14 21:18:39,482 - INFO - History loaded successfully.
+2025-03-14 21:18:39,482 - INFO - History loaded successfully.
+2025-03-14 21:20:50,207 - INFO - Application started!
+2025-03-14 21:20:50,654 - INFO - History loaded successfully.
+2025-03-14 21:20:50,654 - INFO - History loaded successfully.
+2025-03-14 21:21:08,860 - INFO - History loaded successfully.
+2025-03-14 21:21:08,862 - INFO - History loaded successfully.
+2025-03-14 21:22:38,210 - INFO - History loaded successfully.
+2025-03-14 21:22:38,216 - INFO - History saved to data/history.csv
+2025-03-14 21:22:38,216 - INFO - New entry added: + 4.0 5.0 = 9.0
+2025-03-14 21:22:38,219 - INFO - History saved to data/history.csv
+2025-03-14 21:22:38,219 - INFO - New entry added: - 10.0 3.0 = 7.0
+2025-03-14 21:22:38,222 - INFO - History saved to data/history.csv
+2025-03-14 21:22:38,222 - INFO - New entry added: * 3.0 3.0 = 9.0
+2025-03-14 21:22:38,224 - INFO - History saved to data/history.csv
+2025-03-14 21:22:38,225 - INFO - New entry added: / 8.0 2.0 = 4.0
+2025-03-14 21:22:38,299 - INFO - History saved to data/history.csv
+2025-03-14 21:22:38,299 - INFO - New entry added: + 1 1 = 2
+2025-03-14 21:22:38,299 - INFO - History loaded successfully.
+2025-03-14 21:29:30,936 - INFO - History loaded successfully.
+2025-03-14 21:37:30,292 - INFO - History loaded successfully.
+2025-03-14 21:37:30,295 - INFO - History loaded successfully.
+2025-03-14 21:37:30,297 - INFO - History loaded successfully.
+2025-03-14 21:37:30,298 - INFO - History saved to data/history.csv
+2025-03-14 21:37:30,299 - INFO - New entry added: + 4.0 5.0 = 9.0
+2025-03-14 21:37:30,301 - INFO - History loaded successfully.
+2025-03-14 21:37:30,302 - INFO - History loaded successfully.
+2025-03-14 21:37:30,302 - INFO - History saved to data/history.csv
+2025-03-14 21:37:30,302 - INFO - New entry added: - 10.0 3.0 = 7.0
+2025-03-14 21:37:30,304 - INFO - History loaded successfully.
+2025-03-14 21:37:30,305 - INFO - History loaded successfully.
+2025-03-14 21:37:30,306 - INFO - History saved to data/history.csv
+2025-03-14 21:37:30,306 - INFO - New entry added: * 3.0 3.0 = 9.0
+2025-03-14 21:37:30,307 - INFO - History loaded successfully.
+2025-03-14 21:37:30,308 - INFO - History loaded successfully.
+2025-03-14 21:37:30,309 - INFO - History saved to data/history.csv
+2025-03-14 21:37:30,309 - INFO - New entry added: / 8.0 2.0 = 4.0
+2025-03-14 21:37:30,311 - INFO - History loaded successfully.
+2025-03-14 21:37:30,311 - INFO - History loaded successfully.
+2025-03-14 21:37:30,330 - INFO - History loaded successfully.
+2025-03-14 21:37:30,331 - INFO - History saved to data/history.csv
+2025-03-14 21:37:30,331 - INFO - New entry added: + 1 1 = 2
+2025-03-14 21:37:30,332 - INFO - History loaded successfully.
+2025-03-14 21:39:16,206 - INFO - History loaded successfully.
+2025-03-14 21:39:16,209 - INFO - History loaded successfully.
+2025-03-14 21:39:16,210 - INFO - History loaded successfully.
+2025-03-14 21:39:16,212 - INFO - History saved to data/history.csv
+2025-03-14 21:39:16,212 - INFO - New entry added: + 4.0 5.0 = 9.0
+2025-03-14 21:39:16,215 - INFO - History loaded successfully.
+2025-03-14 21:39:16,216 - INFO - History loaded successfully.
+2025-03-14 21:39:16,217 - INFO - History saved to data/history.csv
+2025-03-14 21:39:16,217 - INFO - New entry added: - 10.0 3.0 = 7.0
+2025-03-14 21:39:16,219 - INFO - History loaded successfully.
+2025-03-14 21:39:16,219 - INFO - History loaded successfully.
+2025-03-14 21:39:16,220 - INFO - History saved to data/history.csv
+2025-03-14 21:39:16,220 - INFO - New entry added: * 3.0 3.0 = 9.0
+2025-03-14 21:39:16,222 - INFO - History loaded successfully.
+2025-03-14 21:39:16,223 - INFO - History loaded successfully.
+2025-03-14 21:39:16,223 - INFO - History saved to data/history.csv
+2025-03-14 21:39:16,223 - INFO - New entry added: / 8.0 2.0 = 4.0
+2025-03-14 21:39:16,225 - INFO - History loaded successfully.
+2025-03-14 21:39:16,226 - INFO - History loaded successfully.
+2025-03-14 21:39:16,246 - INFO - History loaded successfully.
+2025-03-14 21:39:16,246 - INFO - History saved to data/history.csv
+2025-03-14 21:39:16,247 - INFO - New entry added: + 1 1 = 2
+2025-03-14 21:39:16,247 - INFO - History loaded successfully.
+2025-03-14 22:51:52,065 - INFO - Application started!
+2025-03-14 22:52:12,046 - INFO - No calculation history available.
+2025-03-14 22:54:32,602 - INFO - Application started!
+2025-03-14 22:54:40,831 - INFO - No calculation history available.
+2025-03-14 23:01:12,775 - INFO - Application started!
+2025-03-14 23:01:22,475 - INFO - No calculation history available.
+2025-03-14 23:02:18,113 - INFO - Application started!
+2025-03-14 23:03:03,046 - INFO - Application started!
+2025-03-14 23:03:17,727 - INFO - No calculation history available.
+2025-03-14 23:05:59,387 - INFO - Application started!
+2025-03-14 23:06:14,650 - INFO - No calculation history available.
+2025-03-14 23:07:32,632 - INFO - Application started!
+2025-03-14 23:07:39,567 - INFO - No calculation history available.
+2025-03-14 23:09:49,737 - INFO - Application started!
+2025-03-14 23:10:01,853 - INFO - History saved to data/history.csv
+2025-03-14 23:10:01,853 - INFO - New entry added: + 4.0 4.0 = 8.0
+2025-03-14 23:10:23,848 - INFO - History loaded successfully.
+2025-03-14 23:10:23,851 - INFO - History loaded successfully.
+2025-03-14 23:10:23,852 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,852 - INFO - History cleared successfully.
+2025-03-14 23:10:23,853 - INFO - History loaded successfully.
+2025-03-14 23:10:23,854 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,854 - INFO - New entry added: + 3.0 5.0 = 8.0
+2025-03-14 23:10:23,855 - INFO - History file deleted.
+2025-03-14 23:10:23,856 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,856 - INFO - History cleared successfully.
+2025-03-14 23:10:23,857 - INFO - History loaded successfully.
+2025-03-14 23:10:23,858 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,858 - INFO - History cleared successfully.
+2025-03-14 23:10:23,859 - INFO - History loaded successfully.
+2025-03-14 23:10:23,859 - INFO - History loaded successfully.
+2025-03-14 23:10:23,878 - INFO - History file deleted.
+2025-03-14 23:10:23,879 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,879 - INFO - History cleared successfully.
+2025-03-14 23:10:23,880 - INFO - History loaded successfully.
+2025-03-14 23:10:23,880 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,880 - INFO - History cleared successfully.
+2025-03-14 23:10:23,881 - INFO - History loaded successfully.
+2025-03-14 23:10:23,882 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,882 - INFO - New entry added: + 4.0 4.0 = 8.0
+2025-03-14 23:10:23,885 - INFO - History file deleted.
+2025-03-14 23:10:23,886 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,886 - INFO - History cleared successfully.
+2025-03-14 23:10:23,887 - INFO - History loaded successfully.
+2025-03-14 23:10:23,888 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,888 - INFO - History cleared successfully.
+2025-03-14 23:10:23,888 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,888 - INFO - New entry added: + 3 3 = 6
+2025-03-14 23:10:23,889 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,889 - INFO - History cleared successfully.
+2025-03-14 23:10:23,890 - INFO - History file deleted.
+2025-03-14 23:10:23,890 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,890 - INFO - History cleared successfully.
+2025-03-14 23:10:23,891 - INFO - History loaded successfully.
+2025-03-14 23:10:23,891 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,891 - INFO - History cleared successfully.
+2025-03-14 23:10:23,892 - INFO - History file deleted.
+2025-03-14 23:10:23,892 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,892 - INFO - History cleared successfully.
+2025-03-14 23:10:23,896 - INFO - History file deleted.
+2025-03-14 23:10:23,897 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,897 - INFO - History cleared successfully.
+2025-03-14 23:10:23,898 - INFO - History loaded successfully.
+2025-03-14 23:10:23,898 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,899 - INFO - History cleared successfully.
+2025-03-14 23:10:23,900 - INFO - History loaded successfully.
+2025-03-14 23:10:23,903 - INFO - History file deleted.
+2025-03-14 23:10:23,904 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,904 - INFO - History cleared successfully.
+2025-03-14 23:10:23,905 - INFO - History loaded successfully.
+2025-03-14 23:10:23,906 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,906 - INFO - History cleared successfully.
+2025-03-14 23:10:23,906 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,906 - INFO - New entry added: + 2 2 = 4
+2025-03-14 23:10:23,909 - INFO - History file deleted.
+2025-03-14 23:10:23,909 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,909 - INFO - History cleared successfully.
+2025-03-14 23:10:23,910 - INFO - History loaded successfully.
+2025-03-14 23:10:23,911 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,911 - INFO - History cleared successfully.
+2025-03-14 23:10:23,912 - INFO - History loaded successfully.
+2025-03-14 23:10:23,912 - INFO - History file deleted.
+2025-03-14 23:10:23,913 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,913 - INFO - History cleared successfully.
+2025-03-14 23:10:23,914 - INFO - History loaded successfully.
+2025-03-14 23:10:23,914 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,914 - INFO - History cleared successfully.
+2025-03-14 23:10:23,915 - INFO - History loaded successfully.
+2025-03-14 23:10:23,916 - INFO - History file deleted.
+2025-03-14 23:10:23,916 - INFO - History saved to data/history.csv
+2025-03-14 23:10:23,916 - INFO - History cleared successfully.
+2025-03-14 23:14:10,809 - INFO - Application started!
+2025-03-14 23:14:11,153 - INFO - History loaded successfully.
+2025-03-14 23:15:58,970 - INFO - Application started!
+2025-03-14 23:15:59,309 - INFO - History loaded successfully.
+2025-03-14 23:16:47,178 - INFO - Application started!
+2025-03-14 23:16:47,564 - INFO - History loaded successfully.
+2025-03-14 23:21:22,671 - INFO - Application started!
+2025-03-14 23:21:23,003 - INFO - History loaded successfully.
+2025-03-14 23:31:20,194 - INFO - Application started!
+2025-03-14 23:43:28,212 - INFO - Application started!
+2025-03-14 23:43:38,734 - INFO - Application started!
+2025-03-14 23:43:39,087 - INFO - History loaded successfully.
+2025-03-14 23:43:39,088 - INFO - History loaded successfully.
+2025-03-14 23:43:39,098 - INFO - Logging configured.
+2025-03-14 23:43:39,098 - INFO - Environment variables loaded.
+2025-03-14 23:43:39,099 - INFO - Command 'csv' from plugin 'csv' registered.
+2025-03-14 23:43:39,100 - INFO - Command 'data' from plugin 'data' registered.
+2025-03-14 23:43:39,100 - INFO - Application started. Type 'exit' to exit.
+2025-03-14 23:44:09,087 - INFO - Application exit.
+2025-03-14 23:44:09,090 - INFO - Application shutdown.
+2025-03-14 23:44:46,589 - INFO - History loaded successfully.
+2025-03-14 23:44:46,590 - INFO - History loaded successfully.
+2025-03-14 23:45:54,240 - INFO - History loaded successfully.
+2025-03-14 23:45:54,240 - INFO - History loaded successfully.
+2025-03-14 23:51:00,636 - INFO - History loaded successfully.
+2025-03-14 23:51:00,637 - INFO - History loaded successfully.

@@ -1,40 +1,26 @@
+"""
+This module defines basic arithmetic operations for the Advanced Python Calculator.
+"""
 from app.commands import Command
 from history_manager import HistoryManager
 
 history = HistoryManager()
 
-class AddCommand(Command):
-    def execute(self):
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
-        result = num1 + num2
-        print(f"Result: {result}")
-        history.add_entry("+", num1, num2, result)
+class AdditionCommand:
+    def execute(self, operand1, operand2):
+        return operand1 + operand2
 
-class SubtractCommand(Command):
-    def execute(self):
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
-        result = num1 - num2
-        print(f"Result: {result}")
-        history.add_entry("-", num1, num2, result)
+class SubtractionCommand:
+    def execute(self, operand1, operand2):
+        return operand1 - operand2
 
-class MultiplyCommand(Command):
-    def execute(self):
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
-        result = num1 * num2
-        print(f"Result: {result}")
-        history.add_entry("*", num1, num2, result)
+class MultiplicationCommand:
+    def execute(self, operand1, operand2):
+        return operand1 * operand2
 
-class DivideCommand(Command):
-    def execute(self):
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
-        if num2 == 0:
-            print("Error: Division by zero!")
-        else:
-            result = num1 / num2
-            print(f"Result: {result}")
-            history.add_entry("/", num1, num2, result)
+class DivisionCommand:
+    def execute(self, operand1, operand2):
+        if operand2 == 0:
+            return "Error: Division by zero"
+        return operand1 / operand2
 

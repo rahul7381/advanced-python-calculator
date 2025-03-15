@@ -1,47 +1,61 @@
-import pandas as pd
 import os
+import pandas as pd
+from config import HISTORY_FILE, logger
 
 class HistoryManager:
-    def __init__(self, filename="history.csv"):
-        self.filename = filename
+    """Manages the history of calculations, including saving and loading."""
+
+    def __init__(self):
+        """Initialize history by loading existing data if available."""
         self.history = pd.DataFrame(columns=["operation", "operand1", "operand2", "result"])
         self.load_history()
 
-    def load_history(self):
-        """Loads history from CSV if it exists and ensures correct columns"""
-        if os.path.exists(self.filename):
-            self.history = pd.read_csv(self.filename)
-            
-            # Keep only necessary columns and remove unwanted data
-            expected_columns = ["operation", "operand1", "operand2", "result"]
-            self.history = self.history[expected_columns]
-
-    def save_history(self):
-        """Saves history to CSV only if it contains data"""
-        if not self.history.empty:
-            self.history.to_csv(self.filename, index=False)
-
     def add_entry(self, operation, operand1, operand2, result):
-        """Adds a calculation entry to history using pd.concat()"""
+        """Add a new calculation entry and save it."""
         new_entry = pd.DataFrame([{
-            "operation": operation, 
-            "operand1": operand1, 
-            "operand2": operand2, 
+            "operation": operation,
+            "operand1": operand1,
+            "operand2": operand2,
             "result": result
         }])
-        
-        self.history = pd.concat([self.history, new_entry], ignore_index=True)  # ✅ Fix for Pandas 2.0+
-        self.save_history()
 
-    def clear_history(self):
-        """Clears the history"""
-        self.history = pd.DataFrame(columns=["operation", "operand1", "operand2", "result"])
+        self.history = pd.concat([self.history, new_entry], ignore_index=True)
         self.save_history()
+        logger.info(f"New entry added: {operation} {operand1} {operand2} = {result}")
+
+    def save_history(self):
+        """Save history to CSV."""
+        self.history.to_csv(HISTORY_FILE, index=False)
+        logger.info(f"History saved to {HISTORY_FILE}")
+
+    def load_history(self):
+        """Load history from CSV if available."""
+        if os.path.exists(HISTORY_FILE):
+            try:
+                self.history = pd.read_csv(HISTORY_FILE)
+                logger.info("History loaded successfully.")
+            except pd.errors.EmptyDataError:
+                logger.warning("History file exists but is empty.")
 
     def show_history(self):
-        """Displays history cleanly"""
+        """Display calculation history in a readable format."""
         if self.history.empty:
-            print("No calculation history available.")
-        else:
-            print(self.history.to_string(index=False))
+            logger.info("No calculation history available.")
+            return "No calculation history available."
+        return self.history.to_string(index=False)
+
+    def clear_history(self):
+        """Clear the calculation history."""
+        self.history = pd.DataFrame(columns=["operation", "operand1", "operand2", "result"])
+        self.save_history()
+        logger.info("History cleared successfully.")
+
+    def delete_history(self):
+        """Delete the history file completely."""
+        if os.path.exists(HISTORY_FILE):
+            os.remove(HISTORY_FILE)
+            logger.info("History file deleted.")
+        self.history = pd.DataFrame(columns=["operation", "operand1", "operand2", "result"])
+
+history_manager = HistoryManager()  # Singleton instance
 
