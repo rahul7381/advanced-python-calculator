@@ -9,3 +9,37 @@
 2025-03-14 22:45:36,591 - INFO - Application started!
 2025-03-14 22:45:44,595 - INFO - History saved to data/history.csv
 2025-03-14 22:45:44,595 - INFO - New entry added: / 8.0 9.0 = 0.8888888888888888
+2025-03-15 00:12:32,525 - INFO - Subtracting 7.0 - 8.0 = -1.0
+2025-03-15 00:13:37,273 - INFO - Multiplying 9.0 * 0.0 = 0.0
+2025-03-15 00:13:42,236 - INFO - Adding 8.0 + 9.0 = 17.0
+2025-03-15 00:17:25,917 - INFO - Adding 9.0 + 0.0 = 9.0
+2025-03-15 00:17:30,479 - INFO - Multiplying 9.0 * 9.0 = 81.0
+2025-03-15 00:17:36,813 - ERROR - Attempted to divide by zero
+2025-03-15 00:26:07,939 - INFO - Adding 9.0 + 0.0 = 9.0
+2025-03-15 00:26:12,185 - INFO - Multiplying 9.0 * 0.0 = 0.0
+2025-03-15 00:26:16,570 - ERROR - Attempted to divide by zero
+2025-03-15 00:31:44,009 - INFO - Adding 9.0 + 0.0 = 9.0
+2025-03-15 00:31:54,099 - ERROR - Attempted to divide by zero
+2025-03-15 00:36:29,610 - INFO - Adding 2.0 + 3.0 = 5.0
+2025-03-15 00:36:38,192 - ERROR - Attempted to divide by zero
+2025-03-15 00:39:28,355 - INFO - Adding 3.0 + 3.0 = 6.0
+2025-03-15 00:39:51,365 - INFO - Adding 9.0 + 9.0 = 18.0
+2025-03-15 00:40:09,866 - ERROR - Attempted to divide by zero
+2025-03-15 00:42:09,652 - INFO - Adding 6.0 + 4.0 = 10.0
+2025-03-15 00:42:41,058 - ERROR - Attempted to divide by zero
+2025-03-15 00:44:19,407 - ERROR - Attempted to divide by zero
+2025-03-15 00:44:24,813 - INFO - Adding 45.0 + 45.0 = 90.0
+2025-03-15 00:44:44,850 - INFO - Adding 4.0 + 3.0 = 7.0
+2025-03-15 00:44:48,734 - ERROR - Attempted to divide by zero
+2025-03-15 00:46:37,618 - ERROR - Attempted to divide by zero
+2025-03-15 00:55:36,054 - INFO - Dividing 3.0 / 6.0 = 0.5
+2025-03-15 00:55:41,034 - INFO - Adding 5.0 + 8.0 = 13.0
+2025-03-15 00:56:14,021 - ERROR - Attempted to divide by zero
+2025-03-15 01:00:13,568 - INFO - Adding 6.0 + 7.0 = 13.0
+2025-03-15 01:22:18,618 - INFO - Adding 3.0 + 4.0 = 7.0
+2025-03-15 02:42:17,756 - INFO - Adding 3.0 + 2.0 = 5.0
+2025-03-15 02:42:30,736 - INFO - Multiplying 3.0 * 4.0 = 12.0
+2025-03-15 03:21:38,380 - ERROR - Error: unsupported format string passed to NoneType.__format__
+2025-03-15 03:24:03,011 - ERROR - Error: unsupported format string passed to NoneType.__format__
+2025-03-15 03:24:18,670 - ERROR - Error: unsupported format string passed to NoneType.__format__
+2025-03-15 03:54:30,611 - ERROR - Error: unsupported format string passed to NoneType.__format__

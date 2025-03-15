@@ -1,21 +1,37 @@
 # Advanced Python Calculator
 
-## 📌 Project Overview
-This is a command-line calculator with a **dynamic plugin system** and **history tracking** using Pandas.
+## Overview
+This is a Python-based calculator with advanced features, including:
+- Command-Line Interface (REPL)
+- Plugin System for Extensions
+- Calculation History Management using Pandas
+- Professional Logging Practices
+- Pytest-based Unit Testing with 90%+ Coverage
+- GitHub Actions for CI/CD
 
-## 🔧 Features
-- **Basic Arithmetic**: Supports `+`, `-`, `*`, `/`
-- **History Management**: Saves all calculations in `history.csv`
-- **Plugins Support**: Easily extendable with new commands
-- **Logging**: Tracks all operations in `app.log`
-- **Command Design Pattern**: Used for modularity
-- **Facade Design Pattern**: Simplifies Pandas history management
+## Features
+### ✅ Arithmetic Operations
+- Addition, Subtraction, Multiplication, Division
+- Expression Parsing (`2+3*4` is supported)
+- Division by zero is safely handled
 
-## 🚀 Installation
-```bash
-git clone https://github.com/rahul7381/advanced-python-calculator.git
-cd advanced-python-calculator
-python3 -m venv venv
-source venv/bin/activate  # On Mac/Linux
+### ✅ Calculation History
+- View, clear, and delete history
+- Stored in `history.csv` with Pandas
+
+### ✅ Plugin System
+- New features can be added via plugins
+- Use the `menu` command to list available plugins
+
+## Setup Instructions
+### Install Dependencies
+```sh
 pip install -r requirements.txt
+
+## Design Patterns
+- **Facade Pattern**: Provides a simple interface for complex operations like calculation and history management.
+- **Command Pattern**: Each operation (add, sub, mul, div) is encapsulated in a separate command object.
+- **Factory Pattern**: Used for dynamically creating objects like calculation strategies or plugin objects.
+- **Singleton Pattern**: Ensures only one instance of `CalculationHistory`.
+- **Strategy Pattern**: Allows different strategies for handling different operations (e.g., addition, subtraction, etc.).
 
